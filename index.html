@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta http-equiv="content-type" content="text/html" charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <title>Elektronix</title>
+        <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+    
+    </head>
+
+    <body>
+
+        <header>
+
+            <center><img  id="img_logo" src = "photos/Logo.png" alt="logo"/></center>
+
+        </header>
+        <div id= "kolor">
+        <div id="lista1">
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Strona głowna</a></li>
+                <li><a href="sklep.html">Sklep</a></li>
+                <li id="add"><a href="zapisz.php">Dodaj oferte</a></li>
+                <li><a href="kalkulator.html">Kalkulator</a></li>
+
+            </ul>
+
+        </div>
+        </div>
+       
+        <h1 id="nag_1">Witamy na stronie internetowej poświęconej elektronice !</h1>
+        <div id ="pole1">  
+        <section class="slider">
+          <div class="flexslider">
+            <ul class="slides">
+              <li>
+                    <img src="photos/slide1.png" />
+                    
+              </li>
+              <li>
+                  <img src="photos/slide2.png" />
+                  
+                 
+              </li>
+              <li>
+                  <img src="photos/slide3.png" />
+              </li>
+              
+            </ul>
+          </div>
+        </section>
+        </div>
+    
+        
+          
+          
+         <div id="Klasyfikacja">
+              <h1 id="h1_main">Klasyfikacja elektryczna środowisk</h1>
+            </div> 
+
+              <div id="zdj">
+             
+              <article class= "article">
+                <div id="zdjp">
+                  <h2 class="nagł_klas">Przewodniki</h2>
+                  <img class="foto" src="photos/półprzewodnik.png" />
+                  <br>
+                  <a href = "przewodnik.html" id= "a_przewodnik">Czytaj więcej</a>
+                </div>  
+  
+              </article>
+
+              <article class= "article">
+                  <div id="zdjp">
+                      <h2 class="nagł_klas">Półprzewodniki</h2>
+                      <img class="foto" src="photos/przewodnik.png" />
+                      <br>
+                      <a href = "półprzewodnik.html" id= "a_przewodnik">Czytaj więcej</a>
+      
+                  </div>
+              </article>
+  
+              <article class= "article">
+                  <div id="zdjp">
+                  <h2 class="nagł_klas">Izolatory</h2>
+                  <img class="foto" src="photos/izolator.png" />
+                  <br>
+                  <a href = "izolator.html" id= "a_przewodnik">Czytaj więcej</a>
+                  </div>  
+          
+              </article>
+  
+              
+          </div>
+          </div>
+
+        </div>
+        <div id="foter">
+
+                <div id="foot">
+                        <p>Autor: Sławomir Kosior </p>
+                        <hr>
+                        <p> WSIiZ 2019</p>
+                    </div>
+
+
+
+        
+        
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+
+        <script defer src="js/jquery.flexslider.js"></script>
+
+
+        <script type="text/javascript">
+            $(function(){
+              SyntaxHighlighter.all();
+            });
+            $(window).load(function(){
+              $('.flexslider').flexslider({
+                animation: "slide",
+                start: function(slider){
+                  $('body').removeClass('loading');
+                }
+              });
+            });
+          </script>
+        
+
+
+
+    </body>
+
+</html>

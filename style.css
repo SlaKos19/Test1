@@ -1,0 +1,484 @@
+header{
+    
+    width: 100%;
+    height: 50%;
+    background-image: url(tło.png);
+}
+#img_logo{
+    width: 20%;
+    height: 20%;
+}
+/*#menu ul li a {
+    text-decoration: none;
+    font-family:Georgia;
+    font-size:100%;
+    font-weight: bold;
+    color: black;
+    padding: 5px;
+    margin:3px;
+    border:solid red 2px;
+    
+
+
+
+}
+#menu ul li {
+    background-color: rgb(51, 142, 228)  ;
+    padding: 18px;
+    list-style-type: none;
+    float: left;
+    margin-right: 3px;
+    position: relative;
+    left:-2.7%;
+    border:solid red 2px;
+   
+}
+
+#menu_1{
+border:solid red 2px;
+width:100%;
+height: 50%;
+padding-bottom:40px;
+padding-top:40px;
+}    
+*/
+
+
+#menu ul li {
+    background-color:rgb(51, 142, 228)  ;
+    padding: 15px;
+    list-style-type: none;
+    float: left;
+    margin-right: 2px;
+    
+    
+    
+}
+#menu ul li a {
+    text-decoration: none;
+    font-family: Georgia;
+    font-size: 14pt;
+    font-weight: bold;
+    color: black;
+    padding: 5px;
+    
+    
+}
+#menu {
+    height: 100px;
+    background-color:rgb(175, 211, 233);
+ /*   background-color:rgba(251, 252, 193, 0.63);*/
+}
+#marquee_log {
+    height: 50px;
+    background: rgb(175, 211, 233);
+}
+
+.flexslider ul li{
+    
+    
+    background: rgb(175, 211, 233);
+    
+    
+    
+    
+}
+.slider{
+    background: rgb(175, 211, 233);
+}
+.slider{
+    height:500px;
+    width:900px;
+    position: relative;
+    left:21%;
+    background: rgb(175, 211, 233);
+    
+    
+    
+}
+#nag_1{
+    font-size:20pt;
+    color:brown;
+    text-align:center;
+    font-weight: 800;
+    
+    background: rgb(175, 211, 233);
+    
+}
+#pole1{
+    
+    height: 600px;
+    background: rgb(175, 211, 233);
+}
+
+
+
+#h1_main{
+    text-align: center;
+    background: rgb(175, 211, 233);
+    
+
+
+
+}
+
+#kolor{
+    background: rgb(175, 211, 233);
+    border:solid brown 2px;
+   
+}
+.foto  {
+    height:200px;
+    width: 280px;
+    border:solid brown 2px;
+  
+}
+#zdjp{
+    position: relative;
+    left:80%;
+    background: rgb(175, 211, 233);
+    
+    
+}
+
+
+.article{
+    display: inline-block;
+    justify-content: center;
+    margin-right: 5%;
+    background: rgb(175, 211, 233);
+    
+    
+    
+}
+#zdj{
+    position: relative;
+    
+    height: 500px;
+    padding-top:60px;
+    background: rgb(175, 211, 233);
+}
+#foter{
+    border:solid brown 2px;
+    width: 100%;
+    height: 40%;
+    padding-top: 5%;
+    background: rgb(51, 142, 228);
+    padding-bottom: 5%;
+    top:100%;
+    
+    
+}
+#foot {
+    height: 100px;
+    text-align: center;
+    background-color: rgb(51, 142, 228);
+    font-family: Georgia;
+    font-size: 14pt;
+    padding-top: 30px;
+}
+#foot hr {
+    width: 50%;
+    position: relative;
+    left: 25%;
+    margin: 15px;
+}
+#add {
+    float: right !important;
+    position: relative;
+    margin-right: 5px;
+}
+
+#backg{
+    background: rgb(175, 211, 233);
+}
+/* sklep.html */
+
+#tło_sklep{
+    background: rgb(175, 211, 233);
+}
+#lista1{
+    background:rgb(175, 211, 233);
+    
+}
+/* dodaj.php */
+
+#Nagl_dodaj{
+    font-size:20pt;
+    color:brown;
+    text-align:center;
+    font-weight: 800;
+    padding-top: 50px;
+    background: rgb(175, 211, 233);
+}
+#dodaj_s{
+    background:  rgb(175, 211, 233);
+}
+
+
+.inputy{
+    font-size:14pt;
+    padding-top:10px;
+    position: relative;
+    left:40%;
+    
+   
+    
+
+}
+.kwadraciki{
+    position: absolute;
+    left:50%;
+    padding-top:5px;
+    padding-bottom: 5px;
+
+}
+#zapisz_dodaj{
+    font-size: 15pt;
+    position: relative;
+    left: 37%;
+    padding-top:2px;
+    font-weight: 200;
+    padding-bottom: 2px;
+    width: 400px;
+    margin:30px;
+}
+
+/* przewodnik.html*/
+
+#tło_przewodnik{
+    border: solid brown 2px;
+    background: rgb(175, 211, 233);
+}
+#przewodnik_nagł{
+    font-size:26pt;
+    color:brown;
+    text-align:center;
+    font-weight: 800;
+    padding-bottom:3%;
+}
+#przewodnik_a1{
+    font-size:18pt;
+    margin:1px;
+    margin-left: 1%;
+    padding-bottom: 2%;
+
+}
+.przewodnik_z{
+    width:300px;
+    height: 300px;
+    margin:40px;
+    display:inline-block;
+    justify-content: center;
+    position: relative;
+    left:13%;
+    border :solid brown 2px;
+
+}
+#przewodnik_nagł2{
+    font-size:18pt;
+    margin:1px;
+    margin-left: 1%;
+    padding-bottom: 2%;
+}
+#przewodnik_lista{
+    font-size:14pt;
+    margin:1px;
+    margin-left: 1%;
+    padding-bottom: 5%;
+
+}
+
+
+/*izolator.html*/
+
+#tło_izolator{
+    border:solid brown 2px;
+    background: rgb(175, 211, 233);
+}
+#izolator_nagł{
+    font-size:26pt;
+    color:brown;
+    text-align:center;
+    font-weight: 800;
+    padding-bottom:3%;
+}
+#izolator_zdj1{
+    width: 800px;
+    height: 450px;
+    padding-bottom: 5%;
+}
+#izolator_a1{
+    font-size:18pt;
+    margin:1px;
+    margin-left: 1%;
+    padding-bottom: 5%;
+}
+#izolator_nagł2{
+    font-size:18pt;
+    margin:1px;
+    margin-left: 1%;
+    padding-bottom: 2%;
+    padding-top:5%;
+}
+#izolator_nagł3{
+    font-size:20pt;
+    margin:1px;
+    margin-left: 1%;
+    padding-bottom: 2%;
+    padding-top:5%;
+}
+#izolator_lista{
+    font-size:14pt;
+    margin:1px;
+    margin-left: 1%;
+    padding-bottom: 1%;
+    padding-top:1%; 
+}
+
+
+/* kalkulator.html */
+
+#kalkulator_tło{
+    background: rgb(175, 211, 233);
+    border:solid brown 2px;
+    width: 100%;
+    height:800px;
+    
+    top:50%;
+    left:50%;
+    
+
+}
+.button{
+    width: 50px;
+    height: 50px;
+    font-size: 25pt;
+    margin:3px;
+    cursor: pointer;
+}
+.textview{
+    width: 217px;
+    margin:5px;
+    font-size: 25px;
+    padding:5px;
+
+}
+.button1{
+    width:106px;
+    height: 50px;
+    margin:5px;
+    font-size: 25px;
+    padding:5px;
+}
+.button2{
+    width:50px;
+    height: 106px;
+    margin:5px;
+    font-size: 25px;
+    padding:5px;
+}
+#kalk{
+    border:solid rgb(114, 11, 11) 2px;
+    position: absolute;
+    background: rgb(161, 156, 156);
+    
+    left:42.5%;
+   
+    margin-top: 10px;
+    padding:10px;
+}
+#img_logos{
+    width: 130px;
+    height: 80px;
+}
+#kalkulator_nagł{
+    font-size:20pt;
+    color:brown;
+    text-align:center;
+    font-weight: 800;
+    padding-top: 40px;
+    background: rgb(175, 211, 233);
+
+}
+#opis_kalkulator{
+    font-size:14pt;
+    margin:1px;
+    margin-left: 1%;
+    padding-bottom: 5%;
+    margin-right: 1%;
+
+}
+
+
+/* półprzewodnik.html */
+
+
+#tło_półprzewodnik{
+    border:solid brown 2px;
+    background: rgb(175, 211, 233);
+    height: 1400px;
+}
+#półprzewodnik_nagł{
+    font-size:26pt;
+    color:brown;
+    text-align:center;
+    font-weight: 800;
+    padding-bottom:3%;
+}
+.półprz_zdj1{
+    height: 250px;
+    width: 330px;
+    float: left;
+}
+#półprzewodnik_nagł1{
+    font-size:22pt;
+    color:brown;
+    text-align:center;
+    font-weight: 800;
+    padding-bottom:3%;
+    padding-top:10px;
+}
+.pół_z1{
+    display: inline-block;
+    justify-content: center;
+    margin-right: 5%;
+    background: rgb(175, 211, 233);
+    border:solid brown 2px;
+}
+#półprzewodnik_a1{
+    font-size:18pt;
+    margin:1px;
+    margin-left: 3%;
+    padding-bottom: 2%;
+
+}
+#półprz_s{
+    position: relative;
+    left:15%;
+   
+    width: 80%;
+}
+.txt1{
+    font-size:15pt;
+    text-align: center;
+}
+#Nagł_p{
+    font-size:18pt;
+    margin:1px;
+    margin-left: 1%;
+    padding-bottom: 2%;
+    padding-top:5%;
+}
+#półprzewodnik_lista_1{
+    font-size:14pt;
+    margin:1px;
+    margin-left: 1%;
+    padding-bottom: 1%;
+     
+}
+.dio{
+    font-size: 15pt;
+}
+
+
